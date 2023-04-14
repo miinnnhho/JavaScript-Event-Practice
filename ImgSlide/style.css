@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    padding-top: 70;
+}
+
+.container {
+    width: 300vw;
+    /* transform: translate(-100vw); */
+    /* margin보다 애니매니션 넣었을 때 더 잘 이동함 */
+    transition: transform 0.5s;
+
+}
+
+.inner {
+    width: 100vw;
+    float: left;
+    margin-top: 70px;
+
+
+}
+
+.inner img {
+    width: 30%;
+    border-radius: 10%;
+
+}
